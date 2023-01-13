@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block slider %}
+			<!--imagen de Cabecera -->
+			<div class="row slider">
+				<div class="col">
+					<img src="{% static 'img/contact-img.jpg' %}" class="w-100" alt="Responsive image">
+				</div>
+			</div>
+{% endblock %}
+{% block content %}
+	<!--Contenido-->
+	<main>
+		<!--Acerca de - contenido -->
+		<div class="container">
+			<div class="row contenedor">
+				<div class="col">
+					<h2 class="titulo">Contact Me</h2>
+					<div class="row contacto justify-content-center align-items-center">
+						<div class="col-12 col-lg-2 col-md-2">
+							<a href="#" class="icono icon-phone phone"></a>
+						</div>
+						<div class="col-12 col-lg-3 col-md-3">
+							<p class="text-center">+57 301 721 8540</p>
+						</div>
+						<div class="col-12 col-lg-7 col-md-7">
+							<p>I invite you to call me without any obligation at my personal phone number</p>
+						</div>
+					</div>
+
+					<div class="row contacto justify-content-center align-items-center">
+						<div class="col-12 col-lg-2 col-md-2">
+							<a href="#" class="icono icon-mail mail"></a>
+						</div>
+						<div class="col-12 col-lg-3 col-md-3">
+							<p class="text-center">joelvegas2023@gmail.com</p>
+						</div>
+						<div class="col-12 col-lg-7 col-md-7">
+							<p>My personal email address is at your disposal for any inquiries or issues you may have</p>
+						</div>
+					</div>
+
+					<div class="row contacto justify-content-center align-items-center">
+						<div class="col-12 col-lg-2 col-md-2">
+							<a href="https://api.whatsapp.com/send?phone=573017218540" target="_blank" class="icono icon-whatsapp whatsapp"></a>
+						</div>
+						<div class="col-12 col-lg-3 col-md-3">
+							<p class="text-center">+57 301 721 8540
+							</p>
+						</div>
+						<div class="col-12 col-lg-7 col-md-7">
+							<p>Feel free to add me on Whatsapp if you need any assistance or just want to chat.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+{% endblock %}

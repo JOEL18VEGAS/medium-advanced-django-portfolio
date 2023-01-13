@@ -1,0 +1,92 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block slider%}
+<!--imagen de Cabecera -->
+<div class="row slider">
+    <div class="col">
+        <img src="{% static 'img/about-image.jpg' %}" class="w-100" alt="Responsive image">
+    </div>
+</div>
+{% endblock %}
+{% block content %}
+<!--Contenido-->
+<main>
+    <!--Acerca de - contenido -->
+    <div class="container">
+        <div class="row contenedor">
+            <div class="col">
+                <h2 class="titulo">About Me</h2>
+                <div class="row projects justify-content-center">
+                    <div class="col-12 col-lg-3 col-md-3">
+                        <img src="{% static 'img/joelphoto.jpg' %}" class="rounded-circle w-100" alt="...">
+                        <hr>
+                        <p class="text-center">Joel Vegas</p>
+                        <hr>
+                    </div>
+                    <div class="col-12 col-lg-9 col-md-9">
+                        <h5 class="title-project">Joel Vegas</h5>
+                        <p>I am a junior software developer, with solid knowledge in backend and frontend development,
+                            with
+                            experience in: web development. I have an intermediate level of English language, and an
+                            intermediate
+                            command of python language, SQL and Java languages. I also have good knowledge of version
+                            control
+                            platforms such as github /gitlab, Microsoft office systems and tools, and task management
+                            software.
+                        </p>
+
+                        <p>I'm an organized person, methodical, proactive, creative, and committed, with ease to keep
+                            interpersonal
+                            relationships, good interdisciplinary teamwork and achievement orientation.
+                        </p>
+                    </div>
+                </div>
+
+                <h2 class="titulo">Professional Skills</h2>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-3 col-md-3">
+                        <p class="label text-center">PYTHON</p>
+                    </div>
+                    <div class="col-12 col-lg-9 col-md-9">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95"
+                                aria-valuemin="0" aria-valuemax="100">95%</div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-3 col-md-3">
+                        <p class="label text-center">JAVA</p>
+                    </div>
+                    <div class="col-12 col-lg-9 col-md-9">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90"
+                                aria-valuemin="0" aria-valuemax="100">90%</div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-3 col-md-3">
+                        <p class="label text-center">JAVASCRIPT</p>
+                    </div>
+                    <div class="col-12 col-lg-9 col-md-9">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 97%;" aria-valuenow="97"
+                                aria-valuemin="0" aria-valuemax="100">97%</div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-3 col-md-3">
+                        <p class="label text-center">DART</p>
+                    </div>
+                    <div class="col-12 col-lg-9 col-md-9">
+                        <div class="progress">
+                            <div class="progress-bar " role="progressbar" style="width: 97%;" aria-valuenow="97"
+                                aria-valuemin="0" aria-valuemax="100">97%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}
