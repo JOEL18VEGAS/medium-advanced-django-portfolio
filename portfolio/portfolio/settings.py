@@ -2,17 +2,6 @@ from pathlib import Path
 import os
 import dj_database_url
 
-import environ
-
-# Environ for Local Variables.
-env = environ.Env(
-
-    # set casting, default value
-    DEBUG=(bool, False)
-
-)
-# reading .env file
-environ.Env.read_env()
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
