@@ -1,0 +1,12 @@
+# To ensure app dependencies are ported from your virtual environment/host machine into your container, run 'pip freeze > requirements.txt' in the terminal to overwrite this file
+
+Brotli==1.0.9
+dj-database-url==1.2.0
+Django==4.0
+django-environ==0.9.0   
+gunicorn==20.1.0
+Markdown==3.4.1
+Pillow==9.4.0
+psycopg2-binary==2.9.5
+
+whitenoise==6.2.0
